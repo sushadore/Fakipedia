@@ -1,3 +1,4 @@
+
 .sidebar {
   width: 160px;
   height: 100%;
@@ -7,6 +8,9 @@
   padding: 5px;
   border: 1px solid black;
   margin: 5px;
+}
+li#sidelist {
+  list-style-type: none;
 }
 .logo {
   width: 150px;
@@ -25,11 +29,13 @@
 }
 #left-col {
   height: 550px;
+  width: 563px;
   background-color: lightyellow;
-  padding: 0px;
-  border: 0px solid yellow;
-  margin: 0px;
+  padding: 5px;
+  border: 1px solid yellow;
+  margin: 5px;
   float:left;
+  clear: auto;
 }
 #yellow-heading {
   background-color: yellow;
@@ -39,15 +45,44 @@
 }
 #right-col {
   height: 550px;
+  width: 563px;
   background-color: lightgreen;
-  padding: 0px;
-  border: 0px solid green;
-  margin: 0px;
-  float:right;
+  padding: 5px;
+  border: 1px solid green;
+  margin: 5px;
+
+  clear: auto;
 }
 #green-heading {
   background-color: green;
   padding: 2px;
   border: 1px solid blue;
+  margin: 5px;
+}
+
+#feature {
+  height: 310px;
+  width: 100%;
+  background-color: lightpink;
+  padding: 5px;
+  border: 1px solid pink;
+  margin: 5px;
+}
+
+#pink-heading {
+  background-color: pink;
+  padding: 2px;
+  border: 1px solid purple;
+  margin: 5px;
+}
+
+img.bird {
+  float: left;
+  margin: 5px;
+}
+
+#feature p {
+  display: inline;
+  padding: 5px;
   margin: 5px;
 }
